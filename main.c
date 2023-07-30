@@ -13,6 +13,7 @@ int main(void)
 	int y = 100 * y_resolution;
 
 	MainWindow_Init();
+	//MainWindow_SetLabelScreenResolutionText(L"Разрешение экрана: 1920x1080");
 	while (1)
 	{
 		MainWindow_Cycle();
