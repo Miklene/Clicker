@@ -14,6 +14,9 @@ int main(void)
 
 	MainWindow_Init();
 	//MainWindow_SetLabelScreenResolutionText(L"Разрешение экрана: 1920x1080");
+	MainWindow_AddItemToClickerList("Click1");
+	MainWindow_AddItemToClickerList("Click2");
+	MainWindow_AddItemToClickerList("Click3");
 	while (1)
 	{
 		MainWindow_Cycle();
